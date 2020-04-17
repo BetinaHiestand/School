@@ -1,0 +1,93 @@
+/* ALLGEMEIN */
+/* Grundlayout */
+* {
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    margin: 15px;
+}
+/* Navigation */
+nav {
+    background: #e60000;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    width: 33.3%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+nav ul li:hover {
+    background: #f9a9a9;
+}
+
+nav ul li a {
+    color: #000;
+    font-size: 20pt;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header, h1 {
+    font-family: "Comic Sans MS";
+    font-size: 25pt;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: "Comic Sans MS";
+    font-size: 15pt;
+}
+
+table, th, td {
+    border: 1px solid black;
+
+}
+
+th, td {
+    padding-left: 5pt;
+    padding-right: 5pt;
+}
+
+img {
+    text-align: left;
+
+}
+a{
+    color: #e60000;
+    font-family: "Comic Sans MS";
+}
+
+footer {
+    overflow: auto;
+}
+
+
+

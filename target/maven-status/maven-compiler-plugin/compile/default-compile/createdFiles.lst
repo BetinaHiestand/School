@@ -1,0 +1,15 @@
+com\ubs\school\util\CSVReader.class
+com\ubs\school\dto\SubjectDTO.class
+com\ubs\school\domain\Subject.class
+com\ubs\school\dto\StudentDetailsDTO.class
+com\ubs\school\dto\StudentDTO.class
+com\ubs\school\domain\Class.class
+com\ubs\school\domain\Teacher.class
+com\ubs\school\controller\MainController.class
+com\ubs\school\service\SchoolService.class
+com\ubs\school\dto\ClassDTO.class
+com\ubs\school\dao\BaseDAO.class
+com\ubs\school\domain\MappingStudentSubjectGrade.class
+com\ubs\school\dto\TeacherDTO.class
+com\ubs\school\domain\Student.class
+com\ubs\school\HibernateXMLConf.class

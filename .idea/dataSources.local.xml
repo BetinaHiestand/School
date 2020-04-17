@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="default@localhost" uuid="69d93419-ee15-4152-b0da-db490da0e2ae">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="H2" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa</user-name>
+    </data-source>
+    <data-source name="mySql" uuid="d34e4d84-042b-47f6-ac8b-600454eba91c">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>java</user-name>
+      <introspection-schemas>*:</introspection-schemas>
+    </data-source>
+    <data-source name="school_service@localhost" uuid="ff3efd01-47f3-444c-b518-cf67f29ced5d">
+      <database-info product="MySQL" version="5.5.5-10.1.35-MariaDB" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.15 (Revision: 79a4336f140499bd22dd07f02b708e163844e3d5)" dbms="MARIADB" exact-version="10.1.35" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>forget</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:@</introspection-schemas>
+    </data-source>
+  </component>
+</project>

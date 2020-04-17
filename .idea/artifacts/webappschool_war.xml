@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webappschool:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>webappschool</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="webappschool-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="webappschool:war exploded" />
+    </root>
+  </artifact>
+</component>
